@@ -4,48 +4,80 @@
         <title> Roles of Playable ZZZ Characters</title>
         <meta charset="UTF-8">
         <body>
-        <h1>Informations!</h1>
 
         <style>
-        
-                 body {
-          background-color: #151c28;
+        .tabs {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 5px;
+          margin-bottom: 20px;
+        }
+        .tabs div {
+          background-color: #d7f300;
+          color: #151c28;
+          padding: 10px;
+          border-radius: 25px;
+          transition: transform 0.3s ease;
         }
 
-        h1{
-          color: #d7f300 ;
-          font-family: sans-serif;
+        .tabs div:hover {
+          transform: scale(1.1);
         }
+
+        @media (max-width: 600px) {
+          .tabs {
+              flex-direction: column;
+              align-items: center;
+             }
+         }
+
+         body {
+          background-color: #151c28;
+          font-family: sans-serif;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+       }
+
+        h1 {
+          color: #d7f300 ;
+        }
+
         p {
             color: rgba(245, 245, 245, 0.712);
             font-family: sans-serif;
         }
+
         i {
             color: #d7f300;
         }
-            div {
-  background-color:  #d7f300;
-  color: #151c28;
-  padding: -13px;
-  text-align: center;
-  border-radius: 25px;
- }
-        .center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: -50%;
+
+        .container {
+          max-width: 900px;
+          margin: auto;
+          padding: 20px;
         }
-         
+
+        .images {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+          margin-top: 20px;
+      }
             </style>
        
        
-       
-        <div class="Tabs">
+         <div class="container">
+         <h1>Informations!</h1>
+
+         <div class="tabs">
             <div><h4><a href="index.html">Background!</a></h4></div>
             <div><h4><a href="agents.html">Agents And Their Functions!</a></h4></div>
             <div><h4><a href="build.html">Builds And Roles!</a></h4></div>
             <div><h4><a href="info.html">Informations!</a></h4></div>
+            <div><h4><a href="upcoming.html">Upcoming Characters!</a></h4></div>
            </div>
         
         <p>Here are some valuable informations about the Agents in ZZZ (Zenless Zone Zero).</p>
@@ -70,7 +102,7 @@
                 <img src="https://i.pinimg.com/736x/a5/ee/93/a5ee9331a3e1db9fa55d95e9e3edcafa.jpg " height="150">
                 <p> <i>Anby Demara</i> is a young girl whose age and past are a mystery, as is where she learned her highly efficient fighting style. She was taken in by Nicole and joined the Cunning Hares, she gradually became a strong, most trusted companion responsible for combat. Anby loves movies, but due to a lack of common sense, she often believes them real and follows their example.</p>
                 <p>She is calm and collected, and unusually competent and efficient in combat, almost as if she'd had years of training. She's has an emotional independence on her ever since.
-                    She loves watching movies, but due to certain lack of common sense she seems to almost think them real-life stories. </p>
+                    She loves watching movies, but due to certain lack of common sense she seems to almost think them real-life stories. Her sister is <i>Soldier 11.</i> </p>
                 
                 <img src=" https://i.pinimg.com/474x/21/c0/f1/21c0f162d067acb9fbe9c5bd1fce429f.jpg" height="150">
                 <p> "The best mackerel is always the one you haven't eaten yet~" — <i>Nekomiya Mana</i></p>
@@ -130,7 +162,7 @@
                     <p> She also attends a school in New Eridu and has a group of ordinary friends. Apart from her role as a maid at Victoria Housekeeping, Ellen spends a significant amount of time with her friends, leading an ordinary and contented student life.</p>
 
                     <img src="https://i.pinimg.com/474x/12/f8/6b/12f86b0dae2f73f4281202c3a1fc3a0d.jpg" height="150"> 
-                    <p>"Glutton" - the name Soukaku's been called the most</p>
+                    <p>"Glutton" - the name <i>Soukaku's </i> been called the most</p>
                     <p> Few people know her full nickname is: The cute little one who always gobbles down everything she can and is super happy when full but can't reed or rite.Not only a member of Section 6, but also one of its "assets." Enemies who underestimate her have a tendency to vanish from existence. TotallyDue to certain reasons, she's somewhat uneducated, and often mispronounces words, which results in some cute blunders </p>
 
                     <img src="https://i.pinimg.com/474x/3b/a6/36/3ba636792b77e7a5e6a846fe6d180bcb.jpg" height="150">
@@ -176,7 +208,39 @@
                     <img src="https://i.pinimg.com/474x/35/8e/dc/358edc77f26d0480b69fe72d65ac917e.jpg" height="150">
                     <p>She's shed her weakness along with her name, leaving only resolve... At least that's what Soldier 11 thinks. </p>
                     <p><i>Soldier 11</i> is a member of the New Eridu Defense Force. She currently serves as a primary responder in the Obol squad, Obsidian Division. Soldier 11 is a code name — her real name remains unknown. </p>
-                    <p> Soldier 11 is a fan of spicy food, and likes the super-spicy noodles served at Waterfall Soup. It's worth noting she currently calls us by a different name every time she greets us.</p>
-                    <i>More information is still being obtained</i>
+                    <p> Soldier 11 is a fan of spicy food, and likes the super-spicy noodles served at Waterfall Soup. It's worth noting she currently calls us by a different name every time she greets us. She is the older of <i> Anby.</i></p>
+                    
+
+                    <img src="astra_jpg.jpg" height="150">
+                    <p>"This next song is dedicated to the world!"</p>
+                    <p><i>Astra Yao</i> is a singer and actress. She is known as the "most well known celebrity in New Eridu. She had performed recently in her mega-concert "The Ultimate Voice", which led to a live album from that concert and a videotape labeled "f.f." being released afterwards. In an interview, she says that her new mega-concert is already in the works. <br> The last track on her album "Monologue" lasts for over 30 minutes and it is a compilation of her interviews on the "Jealous" magazine.</p>
+
+                    <img src="evelyn_jpg.jpg" height="150">
+                    <p>"Ms. Yao is currently enjoying her private time and will not be taking any interviews."</p>
+                    <p><i>Evelyn Chevalier</i>  is the manager and personal bodyguard of Ridu's most iconic singer, <i> Astra Yao.</i>  Known for her calm, decisive decision-making and professional, efficient style, she's an irreplaceable pillar behind Astra.</p>
+                    <p><i> Evelyn</i> is skilled at planning comprehensive schedules and product endorsements, while also ensuring Astra Yao's safety during any unexpected situations. "Want to get close to Astra Yao? You'll have to get past Evelyn Chevalier first..." Though she's always busy with work, Evelyn never seems overwhelmed, and she has an almost obsessive attention to detail, ensuring that every performance and every product endorsement goes through her strict scrutiny.</p>
+
+                    <img src="miyabi_jpg.jpg" height="150">
+                    <p>"Order cannot be broken."</p>
+                    <p><i>Miyabi Hoshimi</i> the Chief of Hollow Special Operations Section 6.</p>
+                    <p> Being conferred the title of Void Hunter due to her outstanding contributions, she's an elite amongst elites in Section 6. She goes on a lot of field missions and still doesn't know which floor the regular monthly meeting is on. <i>Miyabi</i>  is honest and pragmatic. She is not simply a martial artist obsessed with her art and without care for the world around her. Anyone who knows her will realize she's always pursued justice in her heart... even if it may eventually cause a revolution. </p>
+
+                    <img src="yanagi_jpg.jpg" height="150">
+                    <p> "Well... it's hard to say. Sometimes, I end up working into the next day without even realizing it."</p>
+                    <p><i>Tsukishiro Yanagi</i> The Deputy Chief of Hollow Special Operations Section 6, <i> Tsukishiro Yanagi </i> is an ex-soldier from the New Eridu Defense Force who has been infused with Oni blood.</p>
+                    <p> Her main jobs include general management, on-site support and being the guardian of her fellow member <i>Soukaku</i>; alongside all these duties, she usually finds herself having to complete the rest of the team's tasks as well. Whilst making her way to the leader's hideout, she met a young Soukaku and soon saved her from an oncoming missile strike, being captured by Oni rebels in the process. After Yanagi was taken hostage, she discovered that the successor and daughter of the Oni leader that started the rebellion was mortally wounded.</p>
+                    <p> <i> Yanagi </i> and <i>Harumasa</i> (and later on Soukaku) joined Hollow Special Operations Section 6 when they were invited by Miyabi. Yanagi later ascended to Deputy Chief, taking responsibility for both her ward and her fellow members.</p>
+
+                    <img src="asaba_jpg.jpg" height="150">
+                    <p> "I've got bags under my eyes, my body aches all over, and I feel so out of it that Im about to mutate into an Ethereal."</p>
+                    <p><i>Asaba Harumasa</i>,  a member of Hollow Special Operations Section 6. </p>
+                    <p> Possessing exceptional Ether aptitude since he was young and being dubbed a prodigy, he entered HSO after graduating with outstanding merit. Was originally a member of a certain ace division within HSO, but later left due to various reasons, joining Miyabi's team instead.</p>
+                    <p><i>Asaba Harumasa </i> has poor health, and over-exercise sometimes triggers his illness. He often uses this reason to apply for sick leave, though no one knows what he does with this time off. Either way, it's probably not resting. He claims he uses a bow to better slack off, as it effectively lowers the amount of running he has to do.</p>
+
+                    <img src="lighter_jpg.jpg" height="150">
+                    <p>"Is anyone up for challenging the undefeated Champion?"</p>
+                    <p><i>Lighter</i> The "Red Scarf" and Champion of <i>The Sons of Calydon</i>, Lighter is an incredibly skilled fighter having experience from his time as a mercenary and underground fighter.</p>
+                    <p> <i> Lighter</i>  used to be a mercenary. He founded a company with other three mercenaries, Dane Driscoll, Nick Carmine, and Ratena Katherine, with Lighter as their leader. He became close with each member and their families, but due to his poor judgement, his comrades died, leaving Lighter as the sole survivor. </p>
+                    <p> Things changed when <i>Big Daddy</i>, then leader of The Sons of Calydon, paid off Lighter's debt and took him in, since he was a "high-profile fighter" that rarely lost. <i>Billy kid</i> the previous Red Scarf and Champion for the gang, was yet to leave the gang at the time, and Lighter still teasingly refers to him as his "Brother" and "Predecessor."</p>
                 </head>      
         </body> 
