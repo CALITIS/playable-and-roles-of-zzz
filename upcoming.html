@@ -29,7 +29,14 @@
              }
          }
          body {
-          background-color: #151c28;
+          background-image: url(image.png);
+          background-position: center;
+          background-attachment: fixed;
+          min-height: 200hv;
+          background-size: cover;
+          display: block;
+          justify-content: center;
+          flex-wrap: wrap;
           font-family: sans-serif;
           margin: 0;
           padding: 0;
@@ -44,18 +51,22 @@
         color: rgba(255, 0, 0, 0.874);
         font-family: sans-serif;
        }
-       .background {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 120%;
-            height: 150%;
-            background-image: url('6490b936765c4f4c8f8f26096bb3b70e.jpg'); 
-            background-size: cover;
-            background-position: center;
-            filter: blur(5px);
-            z-index: -1;
-        }
+
+        .images {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+          margin-top: 20px;
+      }
+      .images img {
+          height: 190px;
+          border-radius: 10px;
+          transition: transform 0.3s ease;
+      }
+      .images img:hover {
+          transform: scale(1.1);
+      }
 
     </style>
     <h1> Upcoming New Characters! </h1>
@@ -68,21 +79,35 @@
       </div>
      <p>These are some of the new upcoming characters that will be added in the game!</p>
     
-     <div class="background">
-        <img src="6490b936765c4f4c8f8f26096bb3b70e.jpg">
-      </div>
+     
       
       
-      <h2>5 stars</h2>
+      <h1>Unknown</h1>
+      <div class="images">
       <img src="Agent_Hugo_Portrait.png" height="250">
+      <h2>Hugo</h2>
+      </div>
+     
+
+      <h2>5 stars</h2>
+      <div class="images">
       <img src="Agent_Silver_Soldier_-_Anby_Portrait.png" height="250">
+      <h2>Silver Soldier</h2>
       <img src="Agent_Trigger_Portrait.png" height="250">
+      <h2>Trigger</h2>
       <img src="Agent_Vivian_Portrait.png" height="250">
+      <h2>Vivian</h2>
+      </div>
+
+
+
 
       <h2> 4 stars</h2>
-
+      <div class="images">
       <img src="Agent_Pulchra_Fellini_Portrait.png" height="250">
+      <h2>Pulchra Fellini</h2>
+      </div>
       
-
+     </head>
      </body>
   

@@ -5,110 +5,148 @@
         <meta charset="UTF-8">
         <body>
             <style>
-                body {
-         background-color: #151c28;
-       }
-
-       h1{
-         color: #d7f300 ;
-         font-family: sans-serif;
-       }
-       p {
-           color: rgba(245, 245, 245, 0.712);
-           font-family: sans-serif;
-       }
-       i {
-           color: #d7f300;
-       }
-       div {
-          background-color:  #d7f300;
-          color: #151c28;
-          padding: -13px;
-          text-align: center;
-          border-radius: 25px;
-}
-       .center {
-           display: block;
-           margin-left: auto;
-           margin-right: auto;
-           width: -50%;
+               .tabs {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+          margin-bottom: 20px;
         }
+        .tabs div {
+          background-color: #d7f300;
+          color: #151c28;
+          padding: 10px;
+          border-radius: 25px;
+          transition: transform 0.3s ease;
+        }
+        .tabs div:hover {
+          transform: scale(1.1);
+        }
+        @media (max-width: 600px) {
+          .tabs {
+              flex-direction: column;
+              align-items: center;
+             }
+         }
+         body {
+          background-color: #151c28;
+          font-family: sans-serif;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+       }
+        h1, h4 {
+          color: #d7f300 ;
+          font-family: sans-serif;
+        }
+        p {
+            color: rgba(245, 245, 245, 0.712);
+            font-family: sans-serif;
+        }
+        .container {
+          max-width: 900px;
+          margin: auto;
+          padding: 20px;
+        }
+        
+        
            </style>
         <h1>Builds and Roles</h1>
         <p>Here are the builds and what role do these agents go by, when it comes to teams and more!</p>
-        <div class="Tabs">
+        <div class="tabs">
             <div><h4><a href="index.html">Background!</a></h4></div>
             <div><h4><a href="agents.html">Agents And Their Functions!</a></h4></div>
             <div><h4><a href="build.html">Builds And Roles!</a></h4></div>
             <div><h4><a href="info.html">Informations!</a></h4></div>
+            <div><h4><a href="upcoming.html">Upcoming Characters!</a></h4></div>
            </div>
     
-    <h1> Nicole</h1>
-    <p>Role: Support <br> Build: <br> Best W-engine: The Vault <br> Alt-W Engines: Unfettered game ball, Slice of time, Reverb- Mark ||, Reverb- Mark |||</p>
-
+    <h1> Nicole</h1> 
+    <p>Role: Support <br> Best W-engine: The Vault <br> Alt-W Engines: Unfettered game ball, Slice of time, Reverb- Mark ||, Reverb- Mark ||| <br> Best Drive Discs: 4pc Swing Jazz and 2pc Chaotic Metal</p>
+    
+  
     <h1>Anby</h1>
-    <p>Role: Stunner <br> Build: <br> Best W-engine: The Restrained <br> Alt-W Engines: Hellfire Gears, Steam Oven, Precious Fossilized Core, Demara Battery- Mark ||, Vortex Arrow </p>
+    <p>Role: Stunner <br> Best W-engine: The Restrained <br> Alt-W Engines: Hellfire Gears, Steam Oven, Precious Fossilized Core, Demara Battery- Mark ||, Vortex Arrow <br> Best Drive Discs: 4pc Shockstar Disco and 2pc Swing Jazz</p>
+    
 
     <h1>Billy kid</h1>
-    <p>Role: Attack DPS <br> Build: <br> Best W-engine:  Starlight Engine Replica <br> Alt-W Engines: Steel Cushion, The Brimstone, Starlight Engine, Street Superstar </p>
-
+    <p>Role: Attack DPS <br> Best W-engine:  Starlight Engine Replica <br> Alt-W Engines: Steel Cushion, The Brimstone, Starlight Engine, Street Superstar <br> Best Drive Discs: 4pc Puffer Electro and 2pc Woodpecker Electro</p>
+    
     <h1>Nekomata</h1>
-    <p>Role: Attack DPS <br> Build: <br> Best W-engine:  Steel Cushion <br> Alt-W Engines: The Brimstone, Starlight Engine, Street Superstar, Canon Rotor </p>
-
+    <p>Role: Attack DPS <br> Best W-engine:  Steel Cushion <br> Alt-W Engines: The Brimstone, Starlight Engine, Street Superstar, Canon Rotor <br> Best Drive Discs: 4pc Woodpecker Electro and 2pc Fanged Metal </p>
+    
     <h1>Koleda</h1>
-    <p>Role: Stunner <br> Build: <br> Best W-engine:  Hellfire Gear <br> Alt-W Engines: Ice-Jade Teapot, Precious Fossilized Core, Vortex-Arrow </p>
+    <p>Role: Stunner <br> Best W-engine:  Hellfire Gear <br> Alt-W Engines: Ice-Jade Teapot, Precious Fossilized Core, Vortex-Arrow <br> Best Drive Discs: 4pc Shockstar Disco and 2pc Swing Jazz </p>
 
     <h1>Ben</h1>
-    <p>Role: Defense <br> Build: <br> Best W-engine:  Spring Embrace <br> Alt-W Engines: Original Transmorpher, Big Cylinder, Identity-Base </p>
+    <p>Role: Defense <br> Best W-engine:  Spring Embrace <br> Alt-W Engines: Original Transmorpher, Big Cylinder, Identity-Base <br> Best Drive Discs: 4pc Swing Jazz and 2pc Soul Rock </p>
 
     <h1>Anton</h1>
-    <p>Role: Attack DPS <br> Build: <br> Best W-engine:  Drill Rig - Red Axis <br> Alt-W Engines: The Brimstone, Starlight Engine, Street Superstar, Canon Rotor </p>
+    <p>Role: Attack DPS <br> Best W-engine:  Drill Rig - Red Axis <br> Alt-W Engines: The Brimstone, Starlight Engine, Street Superstar, Canon Rotor <br> Best Drive Discs: 4pc Thunder Metal and 2pc Swing Jazz</p>
 
     <h1>Grace</h1>
-    <p>Role: Anomaly DPS <br> Build: <br> Best W-engine: Fusion Compiler  <br> Alt-W Engines: Electro Lip Gloss, Weeping Gemini, Magnetic Storm-Alpha,</p>
+    <p>Role: Anomaly DPS <br>  Best W-engine: Fusion Compiler  <br> Alt-W Engines: Electro Lip Gloss, Weeping Gemini, Magnetic Storm-Alpha <br> Best Drive Discs: 4pc Freedom Blues and 2pc Swing Jazz</p>
 
     <h1>Rina</h1>
-    <p>Role: Support <br> Build: <br> Best W-engine: Weeping Cradle  <br> Alt-W Engines: Unfettered Game Ball, Slice of Time, Reverb-Mark ||, Reverb-Mark |||</p>
+    <p>Role: Support <br> Best W-engine: Weeping Cradle  <br> Alt-W Engines: Unfettered Game Ball, Slice of Time, Reverb-Mark ||, Reverb-Mark ||| <br> Best Drive Discs: 4pc Freedom Blues and 2pc Swing Jazz</p>
 
     <h1>Lycoan</h1>
-    <p>Role: Stunner<br> Build: <br> Best W-engine: The Restrained  <br> Alt-W Engines: Ice-Jade Teapot, Hellfire Gears, Six Shooter, Steam Oven, Precious Fossilized Core</p>
+    <p>Role: Stunner<br> Best W-engine: The Restrained  <br> Alt-W Engines: Ice-Jade Teapot, Hellfire Gears, Six Shooter, Steam Oven, Precious Fossilized Core <br> Best Drive Discs: 4pc Shockstar Disco and 2pc Swing Jazz</p>
 
     <h1>Corin</h1>
-    <p>Role: Attack DPS <br> Build: <br> Best W-engine: HouseKeeper  <br> Alt-W Engines: Steel Cushion, Cannon Rotor, Lunar-Noviluna</p>
+    <p>Role: Attack DPS <br> Best W-engine: HouseKeeper  <br> Alt-W Engines: Steel Cushion, Cannon Rotor, Lunar-Noviluna <br> Best Drive Discs: 4pc Fanged Metal and 2pc Woodpecker Metal</p>
 
     <h1>Ellen</h1>
-    <p>Role: Attack DPS <br> Build: <br> Best W-engine: Deep Sea Visitor  <br> Alt-W Engines: The Brimstone, Cannon Rotor, Street Superstar, Starlight Engine</p>
+    <p>Role: Attack DPS <br> Best W-engine: Deep Sea Visitor  <br> Alt-W Engines: The Brimstone, Cannon Rotor, Street Superstar, Starlight Engine <br> Best Drive Discs: 4pc Polar Metal and 2pc Woodpecker Metal</p>
 
     <h1>Soukako</h1>
-    <p>Role: Support <br> Build: <br> Best W-engine: Bashful Demon  <br> Alt-W Engines: Slice of Time, Unfettered Game Ball, Reverb-Mark |||</p>
+    <p>Role: Support <br>  Best W-engine: Bashful Demon  <br> Alt-W Engines: Slice of Time, Unfettered Game Ball, Reverb-Mark ||| <br> Best Drive Discs: 4pc Swing Jazz and 2pc Hormone Punk</p>
 
     <h1>Burnice</h1>
-    <p>Role: Anomaly Sub-DPS <br> Build: <br> Best W-engine: Flamemaker Shaker  <br> Alt-W Engines: Elecrto-Lip Gloss, Weeping Gemini, Roaring Ride, Rainforest Gournamet</p>
+    <p>Role: Anomaly Sub-DPS <br> Best W-engine: Flamemaker Shaker  <br> Alt-W Engines: Elecrto-Lip Gloss, Weeping Gemini, Roaring Ride, Rainforest Gournamet <br> Best Drive Discs: 4pc Chaos Jazz and 2pc Inferno Metal</p>
 
     <h1>Caesar King</h1>
-    <p>Role: Defense <br> Build: <br> Best W-engine: Tusks Of Fury  <br> Alt-W Engines: Spring Embrace, Original Transmorpher</p>
+    <p>Role: Defense <br> Best W-engine: Tusks Of Fury  <br> Alt-W Engines: Spring Embrace, Original Transmorpher <br> Best Drive Discs: 4pc Proto Punk and 2pc Shockstar Disco</p>
 
     <h1>Piper Wheel</h1>
-    <p>Role: Anomaly DPS <br> Build: <br> Best W-engine: Roaring Ride  <br> Alt-W Engines: Fushion Compiler, Electro-Lip Gloss, Weeping Gemini, Rainforest Gourmet</p>
+    <p>Role: Anomaly DPS <br> Best W-engine: Roaring Ride  <br> Alt-W Engines: Fushion Compiler, Electro-Lip Gloss, Weeping Gemini, Rainforest Gourmet <br> Best Drive Discs: 4pc Freedom Blues and 2pc Swing Jazz</p>
 
     <h1>Lucian de Montefio</h1>
-    <p>Role: Support <br> Build: <br> Best W-engine: Kaboom The Cannon  <br> Alt-W Engines: Reverb-Mark |||</p>
+    <p>Role: Support <br> Best W-engine: Kaboom The Cannon  <br> Alt-W Engines: Reverb-Mark ||| <br> Best Drive Discs: 4pc Swing Jazz and 2pc Hormone Punk</p>
 
     <h1>Jane Doe</h1>
-    <p>Role: Anomaly DPS <br> Build: <br> Best W-engine: Sharpened Stinger  <br> Alt-W Engines: Electro Lip Gloss, Weeping Gemini, Fusion Compiler, Rainforest Gourmet, Roaring Ride</p>
+    <p>Role: Anomaly DPS <br> Best W-engine: Sharpened Stinger  <br> Alt-W Engines: Electro Lip Gloss, Weeping Gemini, Fusion Compiler, Rainforest Gourmet, Roaring Ride <br> Best Drive Discs: 4pc Fanged Metal and 2pc Freedom Blues</p>
 
     <h1>Qingyi</h1>
-    <p>Role: Stunner <br> Build: <br> Best W-engine: Ice-Jade Teapot  <br> Alt-W Engines: The Restrained, Hellfire Gears, Steam Oven, Precious Fosillized Core, Six Shooter</p>
+    <p>Role: Stunner <br> Best W-engine: Ice-Jade Teapot  <br> Alt-W Engines: The Restrained, Hellfire Gears, Steam Oven, Precious Fosillized Core, Six Shooter <br> Best Drive Discs: 4pc Shockstar Disco and 2pc Swing Jazz</p>
 
     <h1>Seth Lowell</h1>
-    <p>Role: Defense <br> Build: <br> Best W-engine: Peacekeeper-Specialized  <br> Alt-W Engines: Spring Embrace, Bunny Band, Original Transmorpher</p>
+    <p>Role: Defense <br> Best W-engine: Peacekeeper-Specialized  <br> Alt-W Engines: Spring Embrace, Bunny Band, Original Transmorpher <br> Best Drive Discs: 4pc Proto Punk and 2pc Hormone Punk</p>
 
     <h1>Zhu Yuan</h1>
-    <p>Role: Attack DPS <br> Build: <br> Best W-engine: Riot Suppressor Mark VI  <br> Alt-W Engines: The Brimstone, Cannon Rotor, Starlight Engine, Street Superstar</p>
+    <p>Role: Attack DPS <br> Best W-engine: Riot Suppressor Mark VI  <br> Alt-W Engines: The Brimstone, Cannon Rotor, Starlight Engine, Street Superstar <br> Best Drive Discs: 4pc Chaotic Metal and 2pc Woodpecker Electro</p>
 
     <h1>Soldier 11</h1>
-    <p>Role: Attack DPS <br> Build: <br> Best W-engine: The Brimstone  <br> Alt-W Engines: Cannon Rotor, Starlight Engine, Lunar-Noviluna</p>
+    <p>Role: Attack DPS <br> Best W-engine: The Brimstone  <br> Alt-W Engines: Cannon Rotor, Starlight Engine, Lunar-Noviluna <br> Best Drive Discs: 4pc Inferno Metal and 2pc Woodpecker Electro</p>
+     
+    <h1>Hoshimi Miyabi</h1>
+    <p>Role: Anomaly DPS <br> Best W-engine: Hailstorm Shrine <br> Alt-W Engines: Fusion Compiler, Electro Lip Gloss, Roaring Ride <br> Best Drive Discs: 4pc Branch and Blade Song and 2pc Woodpecker Electro. 2pc W.E (Woodpecker Electro) can be replaced with 2pc Metal</p>
+     
+    <h1>Tsukishiro Yanagi </h1>
+    <p>Role: Flex Character (can either be a Sub DPS or Main DPS) <br>  Best W-engine: Timeweaver <br> Alt-W Engines: Fusion Compiler, Electro Lip-Gloss, Weeping Gemini, Rainforest Gourmet <br> Best Drive Discs: 4pc Thunder Metal and 2pc Chaos Jazz</p>
 
+    <h1>Asaba Harumasa</h1>
+    <p>Role: Quick Swap DPS <br> Best W-Engine: Zanshin Herb Case <br> Alt W-Engines: The Brimestone, Cannon Rotor, Drill Rig - Red Axis, Starlight Engine <br>  Best Drive Discs: 4pc Thunder Metal and 2pc Woodpecker Electro</p>
+
+    <h1>Evelyn Chevalier</h1>
+    <p>Role: Quick Swap DPS <br> Best W-Engine: Hearstring Nocturne <br> Alt W-Engines: Marcato Desire, Cannon Rotor, Steel Cushion, Street Superstar <br> Best Drive Discs: 4pc Woodpecker Electro and 2pc Inferno metal </p>
+
+    <h1>Astra Yao</h1>
+    <p>Role: Support Healer <br> Best W-Engine: Elegant Vanity <br> Alt W-Engines: Kaboon Canon, Bashful Demon, The Vault <br> Best Drive Discs: 4pc Astral Voice and 2pc Swing Jazz</p>
+
+    <h1>Ligher</h1>
+    <p>Role: Stunner <br> Best W-Engine: Blazing Laurel <br> Alt W-Engines: Ice-Jade Teapot, The Restrained, Steam Oven <br> Best Drive Discs: 4pc Shockstar Disco and 2pc Inferno Metal </p>
+    
 
 
 
